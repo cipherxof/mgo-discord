@@ -1,0 +1,21 @@
+{
+  "name": "mgo-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TriggerHappy",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "typescript": "^4.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.37",
+    "ts-node": "^9.1.1"
+  }
+}
