@@ -12,6 +12,7 @@ type GameLobbyPlayer = {
 
 type GameLobby = {
   id: number;
+  lobbyId: number;
   name: string;
   players: GameLobbyPlayer[];
   maxPlayers: number;
@@ -19,6 +20,7 @@ type GameLobby = {
   currentGame: number;
   games: Array<number[]>;
   comment: string;
+  location: string;
 }
 
 type APIGames = {
