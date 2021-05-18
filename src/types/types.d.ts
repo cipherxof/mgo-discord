@@ -3,6 +3,11 @@ type APIResponse<T> = {
   data: T;
 }
 
+type APIGames = {
+  players: number;
+  lobbies: GameLobby[];
+}
+
 type GameLobbyPlayer = {
   id: number;
   name: string;
@@ -23,7 +28,7 @@ type GameLobby = {
   location: string;
 }
 
-type APIGames = {
-  players: number;
-  lobbies: GameLobby[];
+type LobbyStats = {
+  timeStarted: Date;
+  peakPlayers: number;
 }

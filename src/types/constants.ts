@@ -1,3 +1,8 @@
+export enum LobbyType {
+  Training = 6,
+  CombatTraining = 7
+}
+
 export enum MgoMode {
   Normal = 0,
   Drebin = 2,
