@@ -1,6 +1,7 @@
 type APIResponse<T> = {
   success: boolean;
   data: T;
+  message?: string;
 }
 
 type APIGames = {

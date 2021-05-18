@@ -45,6 +45,7 @@ const queryLobbies = async () => {
   const result = await getGameLobbies();
 
   if (!result.success) {
+    console.log(`Failed retrieving lobbies: ${result.message}`);
     return;
   }
 
